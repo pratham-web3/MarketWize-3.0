@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=== Main CSS ===-->
+    <link href="./output.css" rel="stylesheet" />
+
+    <!--====== Google Fonts ======-->
+
+<!-- Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<!-- MarketWize Font -->
+ 
+
+    <!-- Bootstrap 4.5  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap 5.3  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap 5.3 js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--==================== UNICONS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/Logos/favicons/Box/MW Favicon black.png"
+      type="image/x-icon"
+    />
+
+    <!-- Title -->
+    <title>MarketWize | complete marketing solution</title>
+
+    <!--====== Email JS ======-->
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+  emailjs.init({
+    publicKey: "5TqJCvnOOGIt4EwYk",
+  });
+})();
+</script>
+
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+
+    <!--====== NAVBAR ======-->
+    <header id="header">
+      <nav id="navbar" class="navigation">
+        <!--===== Sidebar =====-->
+        <ul class="sidebar-ul" id="sidebar-ul">
+          <li class="cross-nav" onclick="hideSidebar()">
+            <a class=""
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 384 512"
+                width="25px"
+              >
+                <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                  d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
+                /></svg
+            ></a>
+          </li>
+          <li>
+            <a class=" " href="#home">Home</a>
+          </li>
+          <li>
+            <a class=" " href="#brands">Brands</a>
+          </li>
+          <li>
+            <a class=" " href="#testimonial">Testimonial</a>
+          </li>
+          <li>
+            <a class=" " href="#service">Services</a>
+          </li>
+          <li>
+            <a class=" " href="#industries">Industries</a>
+          </li>
+          <li>
+            <a class=" " href="portfolio.html" target="_blank">Portfolio</a>
+          </li>
+          <li class="contact-nav-li">
+            <a class="contact-nav" href="#contact-form">Contact</a>
+          </li>
+        </ul>
+
+      <!--===== Navigation Bar =====-->
+        <ul class="navbar-ul" id="navbar-ul">
+          <li>
+            <a class="" href="#">
+              <div class="nav-logo">
+                <img src="./assets/Logos/main dark.png" alt="MarketWize" />
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="hide-navbar" href="#brands">Brands</a>
+          </li>
+          <li>
+            <a class="hide-navbar" href="#testimonial">Testimonial</a>
+          </li>
+          <li>
+            <a class="hide-navbar" href="#service">Services</a>
+          </li>
+          <li>
+            <a class="hide-navbar" href="#industries">Industries</a>
+          </li>
+          <li>
+            <a class="hide-navbar" href="portfolio.html" target="_blank">Portfolio</a>
+          </li>
+          <li>
+            <a class="contact-nav hide-navbar" href="#contact-form">Contact</a>
+          </li>
+          <li onclick="showSidebar()">
+            <a
+            class="hamburger-nav"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+              >
+                <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                  d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+                /></svg
+            ></a
+            
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+
+<!--==================== MAIN ====================-->
+<main class="main">
+  <section id="home">
+      <div class="home">
+        <div class="home-contaioner">
+          <div class="home-text">
+            <div class="home-title-section">
+              <h1 class="home-title font-primaryFontBold">
+                  Where Strategy meets <span class="fancy">Execution.</span>
+              </h1>
+                    </div>
+                    <div class="home-subtitle-section font-altFont">
+                      "Transforming business visions into reality with neuro-science, results-driven marketing solutions."
+                    </div>
+                    <div class="home-cta-section">
+                        <a href="#contact-form" class="home-cta">Get Started Today</a>
+                    </div>
+                </div>
+                <div class="home-image">
+                    <img src="./assets/Main-Images/Hero-image/Drafts/1x/hero-image-x1-8.png" alt="Hero-Image" class="hero-image">
+                </div>
+                </div>
+            </div>
+        </section>
+
+
+<!-- ============= Brands Section  ============= -->
+
+         <section id="brands">
+          <div class="brands-section">
+            <div class="brands-container">
+                <div class="brands-blocks">
+                   <img src="./assets/Brand Logos/Drafts/SVG/field360-logo-v1.svg" alt="Brands" class="brands-logo one">
+                    
+                </div>
+                <div class="brands-blocks">
+                   <img src="./assets/Brand Logos/Drafts/SVG/tulsi-logo-v1.svg" alt="Brands" class="brands-logo two">
+                    
+                </div>
+                <div class="brands-blocks">
+                   <img src="./assets/Brand Logos/Drafts/SVG/mobilewala-logo-v1.svg" alt="Brands" class="brands-logo three">
+                    
+                </div>
+                <div class="brands-blocks">
+                   <img src="./assets/Brand Logos/Drafts/SVG/ayuvita-logo-v1.svg" alt="Brands" class="brands-logo four">
+                    
+                </div>
+  
+                <div class="brands-blocks">
+                   <img src="./assets/Brand Logos/Drafts/SVG/carzspa-logo-v1.svg" alt="Brands" class="brands-logo five">
+                    
+                </div>
+                <div class="brands-blocks">
+                   <img src="./assets/Brand Logos/Drafts/SVG/barbender-logo-v1.svg" alt="Brands" class="brands-logo six">
+                    
+                </div>
+                <div class="brands-blocks">
+                   <img src="./assets/Brand Logos/Drafts/SVG/waffling-logo-v1.svg" alt="Brands" class="brands-logo seven">
+                    
+                </div>
+                <div class="brands-blocks">
+                   <img src="./assets/Brand Logos/Drafts/SVG/craveyard-logo-z1.svg" alt="Brands" class="brands-logo eight">
+                    
+                </div>
+
+                <div class="brands-blocks">
+                   <img src="./assets/Brand Logos/Drafts/SVG/nice&new-logo-v1.svg" alt="Brands" class="brands-logo nine">
+                    
+                </div>
+                <div class="brands-blocks">
+                   <img src="./assets/Brand Logos/Drafts/SVG/jns-logo-v1.svg" alt="Brands" class="brands-logo ten">
+                    
+                </div>
+                <div class="brands-blocks">
+                   <img src="./assets/Brand Logos/Drafts/SVG/vanshi'z-logo-v1.svg" alt="Brands" class="brands-logo eleven">
+                    
+                </div>
+                <div class="brands-blocks">
+                   <img src="./assets/Brand Logos/Drafts/SVG/nescafe logo v2.svg" alt="Brands" class="brands-logo twelve">
+                    
+                </div>
+  
+            </div>
+          </div>
+         </section>
+
+
+<!-- ============= Features Section  ============= -->
+
+    <section id="features">
+      <div class="features-section">
+        <div class="feature-block feature1">
+          <div class="feature-text"> 
+            <!-- Business Report -->
+            <h2 class="feature-title"> Business and Market Analysis Report</h2>
+            <p class="feature-paragraph">
+              We perform thorough business and market analyses, including SWOT and marketing evaluations, to pinpoint strengths, weaknesses, opportunities, and threats. This informs our strategy alignment with your business objectives.</p>
+          </div>
+          <div class="feature-image">
+            <img src="./assets/Main-Images/Feature image/1x/report-image-x1-8.png" alt="Feature Image" class="feature-img one">
+          </div>
+        </div>
+        <div class="feature-block feature2">
+          <div class="feature-text"> 
+            <h2 class="feature-title">Neuro-Marketing Techniques</h2>
+            <p class="feature-paragraph">
+              Utilizing advanced neuro-marketing techniques, we delve into the psychological triggers that influence consumer behavior. This enables us to create highly effective marketing campaigns that connect with your audience on a deeper level.</p>
+          </div>
+          <div class="feature-image two">
+            <img src="./assets/Main-Images/Feature image/1x/neuro-marketing-image-x1-8.png" alt="Feature Image" class="feature-img two">
+          </div>
+        </div>
+        <div class="feature-block feature3">
+          <div class="feature-text"> 
+            <h2 class="feature-title">AI and Data-Driven Insights</h2>
+            <p class="feature-paragraph">
+              Our approach is grounded in the latest AI and data-driven technologies. We analyze consumer behavior and market trends to provide actionable insights, ensuring your marketing efforts are always on point.</p>
+          </div>
+          <div class="feature-image three">
+            <img src="./assets/Main-Images/Feature image/1x/Ai-image-x1-8.png" alt="Feature Image" class="feature-img three">
+          </div>
+        </div>
+      </div>
+    </section>
+      
+
+      <!-- ============= Portfolio Section  ============= -->
+       
+       <section id="work">
+        <div class="portfolio-section">
+          <h2 class="portfolio-title">Lights, Camera, Action! </h2>
+          <p class="portfolio-subtitle">Step into our world of compelling storytelling and visual artistry.
+          </p>
+          <div class="videos">
+            <div class="portfolio-video">
+              <video class="portfolio-vid " src="./assets/Videos/Main/Conceptual.mp4" controls poster="./assets/Videos/Thumbnails/Drafts/craveyard reel thumbnail.jpg"></video> 
+            </div>
+            <div class="portfolio-video">
+              <video class="portfolio-vid hidden" src="./assets/Web Content/Cretive editz/Event Mangement.mp4" controls></video> 
+            </div>
+            <div class="portfolio-video">
+              <video  class="portfolio-vid hidden" src="./assets/Web Content/Conceptual/field 360 2.mp4" controls></video> 
+            </div>
+            <div class="portfolio-video">
+              <video class="portfolio-vid hidden" src="./assets/Web Content/Cretive editz/tulsi optical.mp4" controls></video> 
+            </div>
+          </div>
+        </div>
+       </section>
+
+
+      <!-- ============= Testimonial Section  ============= -->
+
+      <section id="testimonial">
+        <div class="testimonial-section">
+          <div class="testimonial-container">
+            <div class="testimonial-text">
+              <img class="testimonial-brand-logo" src="./assets/Main-Images/testimonial/SVG/craveyard-logo-z3.svg" alt="Craveyard">
+              <h2 class="testimonial-paragraph">
+                "MarketWize's strategies boosted our franchise's growth, online presence, and inquiries."
+              </h2>
+            </div>
+            <div class="testimonial-Cta">
+              <div class="testimonial-profile">
+                  <img class="testimonial-image" src="./assets/Main-Images/testimonial/mahesh-soni-v2.jpg" alt="testimonial-image">
+                  <div class="testimonial-profile-text" >
+                <h4 class="testimonial-name">Mahesh Soni</h4>
+                <p class="testimonial-role">Founder & CEO</p>
+              </div>
+              </div>
+              <div class="testimonial-contact"><a href="#contact-form" class="testimonial-buton">Get Started</a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- ============= Services Section  ============= -->
+
+      <section id="service">
+
+        <div class="sevice-section">
+
+          <h2 class="service-title">Our creative growth framework</h2>
+          <p class="sevice-subtitle">
+            We offer full capabilities for scaling, ensuring customised strategies and measurable results.
+          </p>
+
+          <div class="service-cards-container">
+            <div class="service-card">
+              <img class="service-card-icon" class="service-icon" src="./assets/Icons/Services/Drafts/rhombus (1).png" alt="icon">
+              <h5 class="service-card-title">Social Media Management</h5>
+              <p class="service-card-text">
+                Enhancing brand presence, creating content, managing profiles, and boosting engagement and conversions.
+              </p>
+            </div>
+
+            <div class="service-card">
+              <img class="service-card-icon" class="service-icon" src="./assets/Icons/Services/Drafts/rhombus (1).png" alt="icon">
+              <h5 class="service-card-title">Paid ADs</h5>
+              <p class="service-card-text">
+                Designing ad campaigns on major platforms, using targeting and optimization to drive leads and sales.
+              </p>
+            </div>
+
+            <div class="service-card">
+              <img class="service-card-icon" class="service-icon" src="./assets/Icons/Services/Drafts/rhombus (1).png" alt="icon">
+              <h5 class="service-card-title">Brand Identity Design</h5>
+              <p class="service-card-text">
+                Developing logos, color schemes, and guidelines for a strong, recognizable brand that resonates.
+              </p>
+            </div>
+
+            <div class="service-card">
+              <img class="service-card-icon" class="service-icon" src="./assets/Icons/Services/Drafts/rhombus (1).png" alt="icon">
+              <h5 class="service-card-title">Marketing Staregy </h5>
+              <p class="service-card-text">
+                Offering SWOT and market analysis, using neuro-marketing and AI insights for strategic growth.
+              </p>
+            </div>
+
+            <div class="service-card">
+              <img class="service-card-icon" class="service-icon" src="./assets/Icons/Services/Drafts/rhombus (1).png" alt="icon">
+              <h5 class="service-card-title">Content Creation</h5>
+              <p class="service-card-text">
+                Producing high-quality 3D animation, VFX & CGI, motion graphics, video production & editing, and blogs that align with brand voice and strategy.
+              </p>
+            </div>
+
+            <div class="service-card">
+              <img class="service-card-icon" class="service-icon" src="./assets/Icons/Services/Drafts/rhombus (1).png" alt="icon">
+              <h5 class="service-card-title">Website Development</h5>
+              <p class="service-card-text">
+                Creating user-friendly dynamic, responsive websites optimized for speed, security, and SEO to attract visitors.
+              </p>
+            </div>
+
+            <div class="service-card">
+              <img class="service-card-icon" class="service-icon" src="./assets/Icons/Services/Drafts/rhombus (1).png" alt="icon">
+              <h5 class="service-card-title">SEO / ASO</h5>
+              <p class="service-card-text">
+                Improving online visibility with SEO techniques and optimizing app store listings for more downloads.
+              </p>
+            </div>
+
+            <div class="service-card">
+              <img class="service-card-icon" class="service-icon" src="./assets/Icons/Services/Drafts/rhombus (1).png" alt="icon">
+              <h5 class="service-card-title">Influencer marketing</h5>
+              <p class="service-card-text">
+                Connecting with influencers to create authentic campaigns that expand brand reach and credibility.
+              </p>
+            </div>
+
+            <div class="service-card">
+              <img class="service-card-icon" class="service-icon" src="./assets/Icons/Services/Drafts/rhombus (1).png" alt="icon">
+              <h5 class="service-card-title">Cold Marketing</h5>
+              <p class="service-card-text">
+                Generating leads through targeted email campaigns ,whatsapp marketing and direct mail for new customers.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+  <!-- ============= Traction Section  ============= -->
+
+      <section id="traction">
+        <div class="traction-section">
+          <div class="traction-container">
+            <div class="traction-title-container">
+            <h2 class="traction-title">Impactful Results with Strategic Insights</h2>
+          </div>
+          <div class="traction-statitics">
+            <div class="traction-block">
+              <h3 class="traction-block-title"><span id="clients-number">25</span>+</h3>
+              <p class="traction-block-text">Clients Served</p>
+            </div>
+            <div class="traction-block">
+              <h3 class="traction-block-title"><span id="leads-number">4500</span>+</h3>
+              <p class="traction-block-text">Leads Generated</p>
+            </div>
+            <div class="traction-block">
+              <h3 class="traction-block-title"><span id="deliverables-number">700</span>+</h3>
+              <p class="traction-block-text">Deliverables</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+
+
+  <!-- ============= Industries Section ============= -->
+
+      <section id="industries">
+        <div class="industries-section">
+          <h1 class="industries-title">Industries with proven success </h1>
+          <div class="industries-container">
+            
+            <!-- Mobile aps -->
+            <div class="industries-card">
+              <div class="industries-icon-container"><img class="industries-icon" src="./assets/Icons/Industries/Drafts/app-store.png" alt="Icon"></div>
+              <h5 class="industries-card-title">Mobile Apps</h5>
+              <p class="industries-card-text">
+                Increase app visibility and downloads through targeted SMM, ASO, and influencer campaigns.
+              </p>
+            </div>
+
+            <!--E-commerce  -->
+            <div class="industries-card">
+              <div class="industries-icon-container"><img class="industries-icon" src="./assets/Icons/Industries/Drafts/shopping-cart.png" alt="Icon"></div>
+              <h5 class="industries-card-title">E-Commerce</h5>
+              <p class="industries-card-text">
+                Drive online sales growth with strategic brand identity, SEO optimization, and data-driven marketing solutions.
+              </p>
+            </div>
+
+            <!-- Franchises -->
+            <div class="industries-card">
+              <div class="industries-icon-container"><img class="industries-icon" src="./assets/Icons/Industries/Drafts/store.png" alt="Icon"></div>
+              <h5 class="industries-card-title">Franchises</h5>
+              <p class="industries-card-text">
+                Fuel franchise expansion using comprehensive SWOT analysis, effective Ad campaigns, and neuro-marketing techniques.
+              </p>
+            </div>
+
+            <div class="industries-card">
+              <div class="industries-icon-container"><img class="industries-icon product" src="./assets/Icons/Industries/Drafts/product.png" alt="Icon"></div>
+              <h5 class="industries-card-title">Consumer Packaged Goods</h5>
+              <p class="industries-card-text">
+                Expand market presence with precise consumer insights, AI-driven analytics, and impactful branding strategies.
+              </p>
+            </div>
+
+            <div class="industries-card">
+              <div class="industries-icon-container"><img class="industries-icon" src="./assets/Icons/Industries/Drafts/cardiogram.png" alt="Icon"></div>
+              <h5 class="industries-card-title">Healthcare</h5>
+              <p class="industries-card-text">
+                Enhance patient engagement with SEO-optimized websites, focused SMM efforts, and data-driven marketing for healthcare providers.
+              </p>
+            </div>
+
+            <div class="industries-card">
+              <div class="industries-icon-container"><img class="industries-icon" src="./assets/Icons/Industries/Drafts/code.png" alt="Icon"></div>
+              <h5 class="industries-card-title">Technology</h5>
+              <p class="industries-card-text">
+                Boost your Saas company through AI-powered market analysis, SEO strategies, and neuro-marketing insights.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+  <!--========== Conatact Page ===========-->
+
+      <section id="contact">
+        <div class="contact-section">
+
+          <!--========== Conatact Details ===========-->
+          <div class="contact-details">
+            <div class="phone-number-container contact-detail-card">
+             <div class="contact-details-info">
+              <span><img class="map-icon" src="./assets/Icons/Fom/Drafts/phone-1.png" alt="map"></span>
+              <p class="phone-number-text"> Phone No.</p></div>
+              <h5 class="phone-number-detail">+91 74338 96891</h5>
+            </div>
+            <div class="email-container contact-detail-card">
+             <div class="contact-details-info"> 
+              <span>
+                <img class="map-icon" src="./assets/Icons/Fom/Drafts/mail-1.png" alt="map">
+              </span>
+              <p class="email-text">Email Address</p></div>
+              <h5 class="email-detail">info@marketwize.com</h5>
+            </div>
+            <div class="address-container contact-detail-card">
+             <div class="contact-details-info"> 
+              <span><img class="map-icon" src="./assets/Icons/Fom/Drafts/pin-1.png" alt="map"></span>
+              <p class="address-text"> Work Address</p></div>
+              <h5 class="address-detail">
+                304 Nakshatra-2, KKV Chowk, 150 Feet Ring Rd, New College Wadi, Mahavir Park, Rajkot, Gujarat 360005
+              </h5>
+            </div>
+          </div>
+
+    <!--========== Conatact Form ===========-->
+          <div class="contact-form" id="contact-form">
+            <form>
+
+              <h2 class="contact-title">GET IN TOUCH!</h2>
+              <input id="name" type="text" required placeholder="Your Name">
+              <input id="company-name" type="text" required placeholder="Company Name">
+              <input id="email" type="email" required placeholder="Email Address">
+              <input id="number" type="text" required placeholder="Phone No.">
+              <textarea id="message" placeholder="How can we help you?"></textarea>
+
+            <!-- Submit  -->
+           <div class="submit-container">
+          <button id="contactButton" type="submit" class="submit" onclick="sendMail()">Send Message<button>
+            </div>
+
+            </form>
+          </div>
+        </div>
+      </section>
+
+    </main>
+      <!--================ Footer Section ===============-->
+
+      <footer id="footer">
+        <div class="footer-section">
+          <div class="footer-container">
+
+           <div class="footer-card item1">
+            <ul class="footer-list">
+              <li class="footer-item footer-card-heading">Menu</li>
+              <li class="footer-item"><a href="#">Home</a></li>
+              <li class="footer-item"><a href="#brands">Brands</a></li>
+              <li class="footer-item"><a href="#service">Services</a></li>
+              <li class="footer-item"><a href="#industries">Industries</a></li>
+              <li class="footer-item"><a href="portfolio.html" target="_blank">Potfolio</a></li>
+              <li class="footer-item"><a href="#contact-form">Contact</a></li>
+            </ul>
+            </div>
+
+              <div class="footer-card item2">
+            <ul class="footer-list">
+              <li class="footer-item footer-card-heading"><a href="portfolio.html" target="_blank">Portfolio </a></li>
+              <li class="footer-item"><a href="portfolio.html#videos" target="_blank">Videos</a></li>
+              <li class="footer-item"><a href="portfolio.html#creatives" target="_blank">Creatives</a></li>
+              <li class="footer-item"><a href="portfolio.html#photoshoot" target="_blank">Photoshoot</a></li>
+            </ul>
+            </div>
+
+            <div class="footer-card item3">
+            <ul class="footer-list">
+              <li class="footer-item footer-card-heading"><a href="portfolio.html#videos">Videos</a></li>
+              <li class="footer-item"><a href="portfolio.html#UGC" target="_blank">UGC</a></li>
+              <li class="footer-item"><a href="portfolio.html#conceptual" target="_blank">Conceptual</a></li>
+              <li class="footer-item"><a href="portfolio.html#trending" target="_blank">Trending</a></li>
+              <li class="footer-item"><a href="portfolio.html#ad-shoot" target="_blank">AD Shoot</a></li>
+              <li class="footer-item"><a href="portfolio.html#influencers" target="_blank">Influencers</a></li>
+              <li class="footer-item"><a href="portfolio.html#creative-edits" target="_blank">Creative Edits</a></li>
+            </ul>
+            </div>
+            
+            <div class="footer-card contact item4">
+            <ul class="footer-list contact">
+              <li class="footer-item footer-card-heading">Contact</li>
+              <li class="footer-item">+91 74338 96891</li>
+              <li class="footer-item">info@marketwize.com</li>
+              <li class="footer-item">304 Nakshatra-2, KKV Chowk, 150 Feet Ring Rd, New College Wadi, Mahavir Park, Rajkot, Gujarat 360005</li>
+            </ul>
+           </div>
+
+           <div class="footer-card logo item5">
+            <img src="./assets/Logos/main light.png" alt="MarketWize" class="footer-logo">
+            <p class="footer-text">Your complete marketing solution in one place with AI-driven and neuro-marketing strategies.</p>
+           </div>
+          </div>
+       </div>
+
+       
+    <!--========== SCROLL UP ==========-->
+
+    <a href="#" class="scrollup" >
+      <i class="fa-solid fa-arrow-up  scrollUp" id="scroll-up"></i>
+    </a>
+
+        <!--====== Footer End =====-->
+        <div class="footer-end-section">
+        <hr class="footer-hr">
+        <div class="footer-end-container">
+          <p class="copyright">
+            &copy;<script>document.write(new Date().getFullYear());</script> MarketWize | All rights reserved.
+            </p>
+            <div class="footer-icons-container">
+              <!-- <div class="footer-icon-card"><a href="#" target="_blank"><img src="./assets/Icons/Footer/facebook.png"alt="facebook"></a></div> -->
+
+              <div class="footer-icon-card"><a href="https://www.linkedin.com/company/marketwize-agency/" target="_blank"><img src=".//assets/Icons/Footer/linkedin-logo.png"  alt="LinkedIn"></a></div>
+
+              <div class="footer-icon-card"><a href="https://www.instagram.com/marketwize.in/" target="_blank"><img src="./assets/Icons/Footer/instagram-logo.png"alt="Instagram"></a></div>
+            </div>
+        </div>
+       </div>
+
+      </footer>
+
+
+
+
+    <!--=== jQuery CDN ===-->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+
+    <!--=== Main JS ===-->
+    <script src="script.js"></script>
+  </body>
+</html>
+<!--============ Designed & Developed by Quick-Binary Inc. ============-->
